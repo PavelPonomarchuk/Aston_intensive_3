@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Aston_intensive_3</string>
+    <string name="button_flags_label">Show state flags</string>
+    <string name="states_austria_text">Austria</string>
+    <string name="states_poland_text">Poland</string>
+    <string name="states_italy_text">Italy</string>
+    <string name="states_columbia_text">Columbia</string>
+    <string name="states_madagascar_text">Madagascar</string>
+    <string name="states_thailand_text">Thailand</string>
+    <string name="states_denmark_text">Denmark</string>
+    <string name="states_switzerland_text">Switzerland</string>
+    <string name="button_image_label">Show image</string>
+    <string name="images_description_downloaded_image">Downloaded image</string>
+    <string name="images_hint_enter_url">Enter an image URL</string>
+    <string name="images_error_message">Downloading error</string>
+</resources>

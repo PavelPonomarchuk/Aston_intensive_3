@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/states_switzerland_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/states_switzerland_flag"
+        android:layout_width="@dimen/states_standard_width"
+        android:layout_height="@dimen/states_standard_width"
+        android:layout_marginTop="@dimen/states_margin_top_state"
+        android:background="@drawable/flag_border">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/switzerland_red" />
+
+        <View
+            android:layout_width="@dimen/states_standard_one_fifth"
+            android:layout_height="@dimen/states_standard_three_fifth"
+            android:layout_marginStart="@dimen/states_standard_two_fifth"
+            android:layout_marginTop="@dimen/states_standard_one_fifth"
+            android:background="@color/white" />
+
+        <View
+            android:layout_width="@dimen/states_standard_three_fifth"
+            android:layout_height="@dimen/states_standard_one_fifth"
+            android:layout_marginStart="@dimen/states_standard_one_fifth"
+            android:layout_marginTop="@dimen/states_standard_two_fifth"
+            android:background="@color/white" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/states_switzerland_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/states_margin_top_name"
+        android:text="@string/states_switzerland_text"
+        android:textColor="@color/states_text"
+        android:textSize="@dimen/states_text_size_name" />
+</LinearLayout>

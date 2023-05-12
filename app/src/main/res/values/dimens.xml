@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_corner_radius">8dp</dimen>
+    <dimen name="states_standard_width">210dp</dimen>
+    <dimen name="states_margin_top_state">20dp</dimen>
+    <dimen name="states_margin_top_name">5dp</dimen>
+    <dimen name="states_text_size_name">16sp</dimen>
+    <dimen name="states_standard_one_third">70dp</dimen>
+    <dimen name="states_standard_two_thirds">140dp</dimen>
+    <dimen name="states_standard_one_sixth">35dp</dimen>
+    <dimen name="states_standard_one_ninth">23dp</dimen>
+    <dimen name="states_standard_two_ninth">46dp</dimen>
+    <dimen name="states_standard_three_fourth">157dp</dimen>
+    <dimen name="states_standard_one_tenth">21dp</dimen>
+    <dimen name="states_standard_three_tenth">63dp</dimen>
+    <dimen name="states_standard_one_fifth">42dp</dimen>
+    <dimen name="states_standard_three_fifth">126dp</dimen>
+    <dimen name="states_standard_two_fifth">84dp</dimen>
+    <dimen name="main_margin_aside">20dp</dimen>
+    <dimen name="main_margin_top">50dp</dimen>
+    <dimen name="main_button_text_size">16sp</dimen>
+    <dimen name="images_margin_top_image">20dp</dimen>
+    <dimen name="images_margin_bottom_et">20dp</dimen>
+    <dimen name="images_margin_aside_et">20dp</dimen>
+    <dimen name="images_image_view_width">200dp</dimen>
+</resources>

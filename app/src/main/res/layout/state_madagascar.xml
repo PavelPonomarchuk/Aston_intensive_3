@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/states_madagascar_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/states_madagascar_flag"
+        android:layout_width="@dimen/states_standard_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/states_margin_top_state"
+        android:background="@drawable/flag_border"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="@dimen/states_standard_one_third"
+            android:layout_height="@dimen/states_standard_two_thirds"
+            android:background="@color/white" />
+
+        <LinearLayout
+            android:layout_width="@dimen/states_standard_two_thirds"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/states_standard_one_third"
+                android:background="@color/common_red" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/states_standard_one_third"
+                android:background="@color/common_green" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/states_madagascar_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/states_margin_top_name"
+        android:text="@string/states_madagascar_text"
+        android:textColor="@color/states_text"
+        android:textSize="@dimen/states_text_size_name" />
+</LinearLayout>
